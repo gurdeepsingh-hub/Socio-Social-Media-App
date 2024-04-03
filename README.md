@@ -41,15 +41,15 @@ npm run build
 
 The built files will be available in the `build` directory.
 
-The backend can be built for production using the following command:
+### Backend Repository
 
-```bash
-npm run build:server
-```
+The backend code for Socio is hosted in a separate repository. You can find the backend code and related documentation at the following link:
 
-The built files will be available in the `build` directory.
+[Backend Repository](https://github.com/gurdeepsingh-hub/Socio-Api)
 
-### Editing OAuth Configuration
+Feel free to explore the backend repository for more details on the API endpoints, database schemas, and implementation details.
+
+## Editing OAuth Configuration
 
 If you've cloned this repository and plan to use OAuth authentication with Google, you'll need to add the `oauth_config.json` file with your own OAuth credentials. Follow these instructions to update the file:
 
