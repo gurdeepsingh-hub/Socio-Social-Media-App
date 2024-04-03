@@ -49,6 +49,18 @@ npm run build:server
 
 The built files will be available in the `build` directory.
 
+### Editing OAuth Configuration
+
+If you've cloned this repository and plan to use OAuth authentication with Google, you'll need to add the `oauth_config.json` file with your own OAuth credentials. Follow these instructions to update the file:
+
+1. create the `oauth_config.json` file in the root directory of the project.
+
+2. Replace the existing values with your own OAuth credentials obtained from the Google Developer Console.
+
+3. Save the changes to the file.
+
+Once you've created the `oauth_config.json` file with your credentials, you'll be able to use OAuth authentication with Google in your application. Make sure to keep your credentials secure and never expose them publicly.
+
 ## Testing
 
 Socio uses Jest for unit testing and Cypress for end-to-end testing.
