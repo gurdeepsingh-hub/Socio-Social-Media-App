@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# Socio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Socio is a simple social media application built using React, Redux, and Node.js. The application allows users to create an account, log in, and post messages that can be seen by other users.
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+You can install Socio by following these steps:
 
-### `npm start`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/gurdeepsingh-hub/socio.git
+   ```
+2. Move into the project directory:
+   ```bash
+   cd socio
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+4. Create a `.env` file in the root of the project and add the following:
+   ```makefile
+   REACT_APP_API_URL=http://localhost:5000/api
+   ```
+5. Start the server:
+   ```bash
+   npm start
+   ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The application will be accessible at [http://localhost:3000](http://localhost:3000).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Building
 
-### `npm test`
+Socio is built using React and Redux for the frontend, and Node.js and Express for the backend. The frontend and backend are served separately.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The frontend can be built for production using the following command:
 
-### `npm run build`
+```bash
+npm run build
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The built files will be available in the `build` directory.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The backend can be built for production using the following command:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm run build:server
+```
 
-### `npm run eject`
+The built files will be available in the `build` directory.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Testing
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Socio uses Jest for unit testing and Cypress for end-to-end testing.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To run the unit tests:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm test
+```
 
-## Learn More
+To run the end-to-end tests:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm run cypress:open
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing
 
-### Code Splitting
+We welcome contributions to Socio! If you have an idea for a new feature or have found a bug, please open an issue. If you have a fix or improvement, please submit a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
+Socio is released under the MIT License.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contact
 
-### Making a Progressive Web App
+For any questions or concerns, please contact us at contact@example.com.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Authors and Contributors
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Gurdeep Singh [(gurdeepsingh-hub)](https://github.com/gurdeepsingh-hub)
